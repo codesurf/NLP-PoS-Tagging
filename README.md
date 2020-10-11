@@ -1,0 +1,12 @@
+# NLP-PoS-Tagging
+A file is given as an input and text is then pre-processed, tokenized, stemmed and lemmatized. After this, all the lemmatized words are tagged in context of Brown Corpus. A list of words along with there respective tags is obtained a a result.
+Some side results are also obtained:
+1> Bar-Graphs:
+    a. Relationship between word length and frequency (tokens with stopwords)
+    b. Relationship between word length and frequency (tokens without stopwords)
+    c. Top 10 most occured word in the file (with stopwords)
+    d. Top 10 most occured word in the file (without stopwords)
+    c. Relationship between word tags and frequency
+2> Word Cloud:
+    a. Of tokens (with stopwords)
+    b. Of tokens (without stopwords)
